@@ -1,0 +1,11 @@
+footer {
+    margin-top: auto;
+    padding: .5rem;
+    background-color: var(--main-bg);
+    color: var(--main-fg);
+    text-align: center;
+}
+
+footer a {
+    color: var(--main-fg);
+}

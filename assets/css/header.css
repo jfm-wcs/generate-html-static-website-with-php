@@ -1,0 +1,22 @@
+header {
+    padding: .5rem;
+    background-color: var(--main-bg);
+    color: var(--main-fg);
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+nav a {
+    opacity: .6;
+    color: var(--main-fg);
+}
+nav a.active {
+    opacity: 1;
+}

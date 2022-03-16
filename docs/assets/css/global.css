@@ -1,0 +1,30 @@
+:root {
+    --main-bg: brown;
+    --main-fg: white
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    line-height: 1.5;
+}
+
+main {
+    width: min(65ch, 100%);
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
